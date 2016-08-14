@@ -10,7 +10,7 @@ __module_description__ = "Allah stuff for user"
 
 world = ['Allah1', 'Allah2', 'Allah3', 'Allah4', 'Allah5', 'Allah6', 'Allah7', 'Allah8', 'Allah9']
 
-def cmd_insult(word, word_eol, userdata):
+def send_allah_stuff(word, word_eol, userdata):
     my_msg = "%s are not doing Allah is doing" %(random.choice(world))
     channel = hexchat.get_info("channel")
     if len(word) < 2:
