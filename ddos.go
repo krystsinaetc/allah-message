@@ -23,7 +23,7 @@ def send_stuff(word, word_eol, userdata):
         for x in range(0, 100):
             hexchat.command("MSG %s %s" %(word[1], my_msg))
 
-hexchat.hook_command("allah", send_stuff)
+hexchat.hook_command("ddos", send_stuff)
 
 
 
