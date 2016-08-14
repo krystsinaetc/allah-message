@@ -4,8 +4,9 @@ A python script for hexchat to ddosing irc-users with blunt messages
 
 ##Installation
 
-Drop it into "addons" directory in Hexchat, and load it with `/py load allah.py` or add to autoload. 
+Drop it into "addons" directory in Hexchat, and load it with `/py load ddos.py` or add to autoload. 
 
 ##Usage
 
-To use, just do `/allah` or `/allah $nick` to write a specific user in the current channel.
+To use, just do `/ddos` or `/ddos $nick` to write a specific user in the current channel.
+Hard version: `/ddos $nick randomWords`: it will activate loop sending.
